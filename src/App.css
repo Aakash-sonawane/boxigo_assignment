@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  gap: 10px;
+  margin: 10px;
+  
+}
+.view{
+  width: 70vw;
+  /* background-color: red; */
+}
+.nav-bar{
+  /* background-color: red; */
+  width: 15vw;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-left: 10px;
+
+}
+.nav-bar div{
+  margin-bottom: 20px;
+}
+
+.d-flex{
+  display: flex;
+}
+.d-flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.gap20{
+  gap: 20px;
+}
+.orangec{
+  color: rgb(251, 66, 42);
+}
+.orangebc{
+  background-color: rgb(251, 66, 42);
+}
+.bold{
+  font-weight: bold;
+}
+.f15{
+  font-size: 13px;
+}
