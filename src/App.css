@@ -42,9 +42,12 @@
   
 }
 .view{
+  /* padding-top: 8px; */
   width: 70vw;
   /* background-color: red; */
 }
+
+/* navbar */
 .nav-bar{
   /* background-color: red; */
   width: 15vw;
@@ -55,6 +58,11 @@
 }
 .nav-bar div{
   margin-bottom: 20px;
+  padding: 12px 6px;
+}
+.live{
+  /* background-color: yellow; */
+  border-left: 7px solid rgb(254, 99, 78);
 }
 
 .d-flex{
@@ -68,14 +76,17 @@
   gap: 20px;
 }
 .orangec{
-  color: rgb(251, 66, 42);
+  color: rgb(254, 99, 78);
 }
 .orangebc{
-  background-color: rgb(251, 66, 42);
+  background-color: rgb(254, 99, 78);
+}
+.grayc{
+  color: rgb(52, 56, 87);
 }
 .bold{
   font-weight: bold;
 }
 .f15{
-  font-size: 13px;
+  font-size: 14px;
 }
