@@ -1,4 +1,3 @@
-
 import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -8,7 +7,7 @@ import ViewMove from './components/viewMove/ViewMove';
 import Root from './components/root';
 
 function App() {
-  const [view, setView] = useState('moves');
+  // const [view, setView] = useState('moves');
   const [moveData, setMoveData] = useState([]);
 
   useEffect(() => {

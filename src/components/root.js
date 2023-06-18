@@ -11,6 +11,7 @@ export default function Root() {
       <div className='view'>
         <h3>My Moves</h3>
         {
+          
           moveData && moveData.map(move=><div key={move.estimate_id}><Moves data={move}/></div>)
         }
         

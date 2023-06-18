@@ -2,29 +2,32 @@
     width: 100%;
     /* background-color: aqua; */
     padding: 25px 0px;
-    border-bottom: 1px solid #e9e5e5;
+    border-bottom: 1px solid #b8b5b5;
     font-weight: 500;
     
 }
 .first{
-    margin-bottom: 25px;
+    margin-bottom: 2px;
 
 }
 .adress1 {
+    /* background-color: red; */
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 300px; */
+}
+.adress2 {
     width: 100%;
 
     justify-content: space-between;
-    padding-right: 300px;
-    /* background-color: blue; */
-    /* gap: 50px; */
+    /* padding-right: 300px; */
 }
 
 .btn-container button {
     margin-left: 5px;
     padding: 7px 14px;
     border-radius: 5px;
-    /* background-color: orange; */
-
 }
 
 .view-btn {
@@ -38,9 +41,15 @@
     color: #fff;
     border: none;
 }
+.add-cont{
+    /* background-color: greenyellow; */
+    width: 450px;
+    justify-content: space-between
+    /* gap: 30px; */
+}
 
 .adfrto p {
-    width: 400px;
+    width: 320px;
 
 }
 .adfrto h4 {
@@ -64,4 +73,8 @@
 input[type="checkbox"] {
     accent-color: red;
     mix-blend-mode: multiply;
+}
+
+.request-id{
+    margin: -9px 0px;
 }

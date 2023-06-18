@@ -1,3 +1,75 @@
+
 .single-move-data-container{
-    margin: 22px 100px;
+    margin: 22px 200px;
 }
+.infoheading{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.infoheading-data{
+    margin: 20px 0px 25px 0px;
+}
+.infoheading h3{
+
+}
+.infoheading button{
+    background-color: black;
+    color: white;
+    padding: 12px 19px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+#dropdown-basic{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 235, 235);
+    color: rgb(243, 87, 67);
+    font-weight: 700;
+    border-radius: 0;
+    border: none;
+    padding: 16px;
+    margin: 0;
+}
+.drop-menu{
+    width: 100%;
+    margin: 0px;
+    border: none;
+    border-radius: 0;
+}
+.gap10{
+    gap: 10px;
+}
+.gap50{
+    gap: 50px;
+}
+.sofa-item-box{
+    /* background-color: red; */
+    margin: 10px;
+}
+.sofa-item-box div{
+    
+    margin: 0px;
+}
+.sofa-item{
+    /* background-color: rgb(189, 226, 24); */
+    margin: 0px;
+    height: 20px;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.heading_dropdown{
+    margin: 10px;
+    font-weight: 700;
+}
+.furniture-typeOpt{
+    font-size: 12px;
+    font-weight: 900px;
+}
+.dropdown-menu.show {
+    border: none;
+  }
