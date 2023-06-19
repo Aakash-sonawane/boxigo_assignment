@@ -1,12 +1,12 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
-import moveContext from '../../contextApi/moveContext';
-import Moves from '../moves/moves';
+import moveContext from '../../../contextApi/moveContext';
+import Moves from '../../moves/moves';
 import './viewMove.css'
-import Infoheading from './infoheading';
-import HouseDetail from './houseDetail';
+import Infoheading from '../viewMove/infoHeading/infoheading';
+import HouseDetail from '../viewMove/housedetails/houseDetail';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BasicExample from './dropDown';
+import DropdownMove from '../viewMove/dropDown/dropDown';
 
 
 
@@ -44,11 +44,11 @@ export default function ViewMove() {
             <div>
                 <Infoheading heading={'Inventory Details'} btnText={"Edit Inventory"} />
                 <div className='d-flex-col gap10'>
-                <BasicExample title={'Furniture'} obj={data[0].items.inventory[0]}/>
-                <BasicExample title={'Electronics'} obj={data[0].items.inventory[1]}/>
-                <BasicExample title={'Vehicle'} obj={data[0].items.inventory[2]}/>
-                <BasicExample title={'Boxes/Trolly'} obj={data[0].items.inventory[4]}/>
-                {/* <BasicExample title={'custom Item'} obj={data[0].items.cutomItems}/> */}
+                <DropdownMove title={'Furniture'} obj={data[0].items.inventory[0]}/>
+                <DropdownMove title={'Electronics'} obj={data[0].items.inventory[1]}/>
+                <DropdownMove title={'Vehicle'} obj={data[0].items.inventory[2]}/>
+                <DropdownMove title={'Boxes/Trolly'} obj={data[0].items.inventory[4]}/>
+                <DropdownMove title={'custom Item'} obj={''}/>
                 
                 </div>
             </div>

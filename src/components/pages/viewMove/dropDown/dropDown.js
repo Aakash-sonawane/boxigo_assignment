@@ -1,12 +1,12 @@
 import Dropdown from 'react-bootstrap/Dropdown';
-import ItemsRendering from './itemsRendering';
+import ItemsRendering from './inventoryRendering/itemsRendering';
 
-function BasicExample(props) {
+function DropdownMove(props) {
   const { title, obj } = props;
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
-        {obj.displayName}
+        {obj ? obj.displayName: 'Custom Items'}
       </Dropdown.Toggle>
       <div>
         <Dropdown.Menu className='drop-menu'>
@@ -26,4 +26,4 @@ function BasicExample(props) {
   );
 }
 
-export default BasicExample;
+export default DropdownMove;

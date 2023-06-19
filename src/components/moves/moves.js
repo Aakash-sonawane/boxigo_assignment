@@ -38,8 +38,8 @@ export default function Moves(props) {
                     <div><i className="fa-solid fa-xl fa-house orangec"></i> {data.property_size}</div>
                     <div><i className="fa-solid fa-xl fa-boxes-stacked orangec"></i> {data.total_items}</div>
                     <div><i className="fa-sharp fa-xl fa-solid fa-road orangec"></i> {data.distance}</div>
-                    <div><i className="fa-solid fa-xl fa-truck orangec"></i> {data.moving_on}</div>
-                    <div><input className='checkbox' type='checkbox' /> <span className='f15'>is flexible</span></div>
+                    <div><i className="fa-solid fa-xl fa-truck orangec"></i> {data.moving_on} <i class="fa-solid fa-pen"></i></div>
+                    <div><input className='checkbox' type='checkbox' checked /> <span className='f15'>is flexible</span></div>
                     <div className='btn-container d-flex'>
                         <button className='view-btn' onClick={() => { navigate(`/${data.estimate_id}`) }}>View move details</button>
                         <button className='quotes-btn'> Quotes Awaiting</button>

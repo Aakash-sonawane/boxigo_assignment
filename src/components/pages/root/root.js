@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import Navbar from './navbar/navbar'
-import Moves from './moves/moves'
-import moveContext from '../contextApi/moveContext'
+import Navbar from '../../navbar/navbar'
+import Moves from '../../moves/moves'
+import moveContext from '../../../contextApi/moveContext'
 
 export default function Root() {
     const[moveData]=useContext(moveContext)

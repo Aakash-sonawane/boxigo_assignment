@@ -3,11 +3,10 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import MoveContext from './contextApi/moveContext';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import ViewMove from './components/viewMove/ViewMove';
-import Root from './components/root';
+import ViewMove from './components/pages/viewMove/ViewMove';
+import Root from './components/pages/root/root';
 
 function App() {
-  // const [view, setView] = useState('moves');
   const [moveData, setMoveData] = useState([]);
 
   useEffect(() => {
@@ -32,6 +31,7 @@ function App() {
       element: <ViewMove />
     }
   ])
+
   return (
     <>
 
